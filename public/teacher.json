@@ -1,0 +1,74 @@
+ [
+  {
+    "id": 1,
+    "name": "Tashfiq Bin Maksud",
+    "email": "tashfiqbin@gmail.com",
+    "address": "Rangpur",
+    "titel": "Associate Teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562595886.png"
+  },
+  {
+    "id": 2,
+    "name": "Nashroh Naziat",
+    "email": "nashroh@gmail.com",
+    "address": "Dhaka,road-24",
+    "titel": "Associate Teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489217.png"
+  },
+  {
+    "id": 3,
+    "name": "Maliha Ulfat",
+    "email": "maliha@gmail.com",
+    "address": "uttora,house-23D",
+    "titel": "Manager Director",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562508170.png"
+  },
+  {
+    "id": 4,
+    "name": "Sagar Dash",
+    "email": "sagardash@gmail.com",
+    "address": "Dhaka,mirpur",
+    "titel": "Manager Director",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489403.png"
+  },
+  {
+    "id": 5,
+    "name": "Jabir Misbah",
+    "email": "jabirmisbah@gmail.com",
+    "address": "Dhaka University",
+    "titel": "Manager",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489490.png"
+  },
+  {
+    "id": 6,
+    "name": "Shatabdi Roy Anu",
+    "email": "shatabdi@gmail.com",
+    "address": "Khulna,house-26D block-3",
+    "titel": "Manager Director",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562490017.png"
+  },
+  {
+    "id": 7,
+    "name": "Avipsu Das Gupta",
+    "email": "avipsudas@gmail.com",
+    "address": "Dhaka",
+    "titel": "Associate Teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562489822.png"
+  },
+  {
+    "id": 8,
+    "name": "Awan Afiaz",
+    "email": "awanafiaz@gmail.com",
+    "address": "Dhanmondi",
+    "titel": "Associate teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562496793.png"
+  },
+  {
+    "id": 9,
+    "name": "Munzereen Shahid",
+    "email": "munzereen@gmail.com",
+    "address": "Dhanmondi",
+    "titel": "English teacher",
+    "img": "https://lms10.s3.ap-southeast-1.amazonaws.com/team/1562398128.png"
+  }
+]
