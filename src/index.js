@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
+<script src="https://kit.fontawesome.com/babda89756.js" crossorigin="anonymous"></script>
 
 
 ReactDOM.render(

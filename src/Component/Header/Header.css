@@ -1,0 +1,36 @@
+.header{
+    background-image: url("./bg.jpg");
+    opacity: 0.9;
+    width:90%;
+    margin: auto;
+    height:70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+p{
+    width:50%;
+    margin:auto;
+    color:cornflowerblue;
+    padding-top: 50px;
+}
+
+.Academy-btn {
+    background-color:mediumvioletred;
+    color:white;
+    padding:8px;
+    border:none;
+    border-radius: 15px;
+    margin-top:50px;
+}
+
+.Academy-btn:hover {
+    background-color: rgb(75, 25, 66);
+}
+
+
+.description {
+    font-size: 29px;
+    color:rgb(155, 156, 248)
+}

@@ -1,0 +1,54 @@
+.inp {
+    width: 70%;
+    border-radius: 10px;
+    border:none
+}
+
+
+.form {
+    border:1px solid silver;
+    border-radius: 10px;
+    background-color: rgb(40, 40, 53);
+}
+
+
+.about-us {
+    padding-top: 50px;
+    display: flex;
+
+
+    margin-bottom:100px;
+}
+
+
+.single-about {
+    background-color:#fce3e3 ;
+    padding:10px;
+    margin:10px;
+    border-radius: 20px;
+    
+    
+
+}
+
+.single-about:hover {
+    background-color: rgb(11, 17, 27);
+    color: white;
+    transition: 2s;
+}
+
+.single-about h3{
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.single-about i {
+    font-size: 50px;
+    margin-top:30px;
+    background-color: #FE9C37;
+    padding:20px;
+    border-radius: 25px;
+    color:white;
+    /* color:#FE9C37; */
+}

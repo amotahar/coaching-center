@@ -1,59 +1,64 @@
 import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  BrowserRouter
+} from "react-router-dom";
 import Home from './Component/Home/Home';
 import About from './Component/About/About';
-import Course from './Component/Course/Course'
-import Mentor from './Component/Mentor/Mentor'
-import NotFound from './Component/NotFound/Notfound';
+import Service from './Component/Service/Service';
+import Navigation from './Component/Navigation/Navigation';
 import Footer from './Component/Footer/Footer';
-import { BrowserRouter as Router, Switch, Route, Link, NavLink } from 'react-router-dom';
 import Header from './Component/Header/Header';
+import NotFound from './Component/NotFound/NotFound';
+
+import Training from './Component/Training/Training'
+
 
 
 function App() {
   return (
-    <div>
-      <Header></Header>
+    <div className="App">
+ 
+  <BrowserRouter>
+<Navigation></Navigation>
 
 
-      <Router>
-        <div className="menu-link text-center">
-          <NavLink exact style={{ color: "white", textDecoration: "none", margin: "5px" }} to="/home">Home</NavLink>
-          <NavLink exact style={{ color: "white", textDecoration: "none", margin: "5px" }} to="/about">About</NavLink>
-          <NavLink exact style={{ color: "white", textDecoration: "none", margin: "5px" }} to="/course">Course</NavLink>
-          <NavLink exact style={{ color: "white", textDecoration: "none", margin: "5px" }} to="/mentor">Mentor</NavLink>
-        </div>
-        <Switch>
-          <Route exact path="/">
-            <About></About>
 
-          </Route>
-          <Route path="/home">
-            <Home></Home>
-          </Route>
-          <Route path="/about">
-            <About></About>
-          </Route>
-          <Route exact path="/course">
-            <Course></Course>
-          </Route>
-          <Route exact path="/mentor">
-            <Mentor></Mentor>
-          </Route>
-          <Route exact path="*">
-            <NotFound></NotFound>
+  <Switch>
+    <Route exact path="/">
+      <Home></Home>
+    </Route>
 
-          </Route>
-        </Switch>
-      </Router>
-      {/* <Course></Course>
-      <Mentor></Mentor>
+    <Route  path="/home">
+      <Home></Home>
+    </Route>
+
+    <Route path="/service">
+      <Service></Service>
+    </Route>
+
+    <Route path="/training">
+      <Training></Training>
+    </Route>
+
+    <Route path="/about">
+    <About></About>
+      </Route>
+
+    <Route path="*">
       <NotFound></NotFound>
-      <Footer></Footer> */}
-      <div>
-        <Footer></Footer>
+    </Route>
+  
 
-      </div>
+  </Switch>
+
+  
+  
+  </BrowserRouter>
     </div>
   );
 }
